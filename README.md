@@ -2,6 +2,8 @@
 
 Problem is that after adding liquidity to 3EurPool in curve calling 3EurPool.calc_withdraw_one_coin(0,0) throws error Error: Transaction reverted without a reason string'. This is forked etherem mainnet block 17677331
 
+NOTE: set your ethereum node url in hardhat.config.ts
+
 To setup environment inside root dir:
 
 ```shell

@@ -32,5 +32,7 @@ contract Demo {
         I3EurPool(poolAddr).add_liquidity(_amount, amountOut);
 
         amountCoin = I3EurPool(poolAddr).calc_withdraw_one_coin(0, 0);
+
+        console.log("amountCoin:", amountCoin);
     }
 }

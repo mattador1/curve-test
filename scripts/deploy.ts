@@ -18,17 +18,7 @@ async function main() {
   await initFundsToAccounts(TokenSymbol.agEUR, "5000", true, false, TOKENS);
 
   const signers = await ethers.getSigners();
-  const owner = signers[0];
-  const governance = signers[1];
-  const reseller = signers[2];
-  const depositor = signers[3];
-  const newOwner = signers[4];
-  const newGovernance = signers[5];
-  const newReseller = signers[6];
-  const user1 = signers[7];
-  const user2 = signers[8];
-  const user3 = signers[9];
-  const user4 = signers[10];
+  const user1 = signers[0];
 
   const Demo = await ethers.getContractFactory("Demo");
 
